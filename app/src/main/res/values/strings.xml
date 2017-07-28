@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">LinearLayout</string>
+    <string name="hello">Hello World, autocomplete!</string>
+    <string name="app_name">Membuat Teks Autocomplete</string>
+    <string name="perintah">Masukan minimal 3 huruf</string>
 </resources>
