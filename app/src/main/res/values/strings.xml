@@ -1,5 +1,10 @@
 <resources>
     <string name="hello">Hello World, autocomplete!</string>
-    <string name="app_name">Membuat Teks Autocomplete</string>
+    <string name="app_name">Menu</string>
     <string name="perintah">Masukan minimal 3 huruf</string>
+    <string name="toastTextbtn">Pangggil Toast</string>
+    <string name="exitTextBtn">Keluar Aplikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <string name="app_checkbox">Membuat Check Box</string>
+    <string name="checkBox">checkBox ini : Tidak Dicentang!</string>
 </resources>
