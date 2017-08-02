@@ -26,7 +26,9 @@
         <activity android:name=".checkBox" />
         <activity android:name=".RadioButton" />
         <activity android:name=".CallActivty" />
-        <activity android:name=".CallActivity2"></activity>
+        <activity android:name=".CallActivity2" />
+        <activity android:name=".playingAudio" />
+        <activity android:name=".audio"></activity>
     </application>
 
 </manifest>

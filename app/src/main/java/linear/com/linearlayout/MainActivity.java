@@ -123,5 +123,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 0);
             }
         });
+
+        Button play = (Button) findViewById(R.id.Button12);
+        play.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), playingAudio.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
+        Button audio = (Button) findViewById(R.id.Button13);
+        audio.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek){
+                Intent myIntent = new
+                        Intent(bebek.getContext(), audio.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

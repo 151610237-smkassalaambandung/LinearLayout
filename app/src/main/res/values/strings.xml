@@ -7,4 +7,6 @@
     <string name="listDialogTextBtn">Panggil List Dialog</string>
     <string name="app_checkbox">Membuat Check Box</string>
     <string name="checkBox">checkBox ini : Tidak Dicentang!</string>
+    <string name="btnPause">Pause</string>
+    <string name="btnStop">Stop</string>
 </resources>
