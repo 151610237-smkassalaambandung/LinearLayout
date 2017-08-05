@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="linear.com.linearlayout">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,7 +32,10 @@
         <activity android:name=".CallActivty" />
         <activity android:name=".CallActivity2" />
         <activity android:name=".playingAudio" />
-        <activity android:name=".audio"></activity>
+        <activity android:name=".audio" />
+        <activity android:name=".CalculatorBeratBadan" />
+        <activity android:name=".webview" />
+        <activity android:name=".flashcamera"></activity>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fly"
+    android:background="@drawable/kupu"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -105,6 +105,27 @@
             android:layout_height="wrap_content"
             android:id="@+id/Button13"
             android:text="Audio">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button14"
+            android:text="calculator bmi">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button15"
+            android:text="Web View">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button16"
+            android:text="Senter">
         </Button>
 
 
